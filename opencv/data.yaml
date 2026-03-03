@@ -1,0 +1,7 @@
+path: "/Users/naveen07/Documents/alumnx/project/computer-vision/opencv/dataset"
+train: "train"
+val: "val"
+test: "test"
+
+names:
+  0: plant
