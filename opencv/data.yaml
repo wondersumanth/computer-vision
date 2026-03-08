@@ -1,4 +1,4 @@
-path: "/Users/naveen07/Documents/alumnx/project/computer-vision/opencv/dataset"
+path: "/Users/sumanth/learning/computer-vision/opencv/dataset"
 train: "train"
 val: "val"
 test: "test"

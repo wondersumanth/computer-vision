@@ -1,8 +1,9 @@
 from ultralytics import YOLO
 
-model = YOLO("/Users/naveen07/Documents/alumnx/project/computer-vision/runs/detect/train2/weights/best.pt")  # load a custom model
+model = YOLO("/Users/sumanth/learning/computer-vision/runs/detect/train2/weights/best.pt")  # load a custom model
 
-model.predict(source="vid.mp4",
+# model= YOLO("yolo11n.pt")
+model.predict(source="/Users/sumanth/Downloads/edited_DJI_20250807102015_0041_D.mp4",
               show=True,
               line_width=2,)
 

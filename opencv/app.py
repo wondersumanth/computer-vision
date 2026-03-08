@@ -9,7 +9,7 @@ import numpy as np
 # -------------------------------------------
 # 1️⃣ Read and Display Image
 # -------------------------------------------
-image = cv2.imread("Mohith.jpeg")
+image = cv2.imread("image_boys.png")
 
 if image is None:
     print("Error: Image not found.")
